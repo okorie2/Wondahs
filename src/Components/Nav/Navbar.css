@@ -1,0 +1,20 @@
+.nav {
+  background-color: rgb(26, 25, 25);
+  width: 98%;
+  padding: 1%;
+}
+.nav ul {
+  overflow-x: hidden;
+  margin-left: 76%;
+  margin-top: -1.5%;
+  list-style-type: none;
+  color: rgb(126, 114, 114);
+}
+.nav li {
+  float: left;
+  padding-right: 15%;
+}
+#active {
+  color: white;
+  margin-top: 1%;
+}

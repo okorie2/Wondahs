@@ -1,0 +1,49 @@
+* {
+  overflow-x: hidden;
+}
+.bg {
+  background-image: linear-gradient(
+      to right,
+      rgba(255, 0, 0, 0),
+      rgb(49, 46, 46)
+    ),
+    url("../../Images/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  width: 100vw;
+  height: 100vh;
+  box-shadow: 2px 2px 6px rgb(83, 80, 80);
+}
+.home {
+  margin-top: 30%;
+  margin-left: 40%;
+}
+.maincard {
+  width: 80%;
+  display: grid;
+  margin-left: 16%;
+  grid-template-columns: auto auto auto;
+  margin-top: 4%;
+  margin-bottom: 5%;
+}
+.card {
+  width: 50%;
+  padding: 5% 0;
+  /* border: 1px solid black;
+  box-shadow: 2px 2px 6px whitesmoke; */
+}
+.flag {
+  background-color: #ffb819;
+  padding-bottom: 45%;
+  cursor: pointer;
+}
+.print {
+  background-color: blue;
+  padding-bottom: 15%;
+  text-align: center;
+  color: white;
+}
+.card h4 {
+  text-align: center;
+}
